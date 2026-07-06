@@ -1,22 +1,19 @@
 # Study-notes
 This repository is my personal proof-of-work portfolio for cybersecurity learning.
 
-It documents my notes in different areas and progress in PortSwigger and TryHackMe.
-
-The main purpose of this repository is to show my practical learning progress and provide visible evidence of the topics I have studied and practised.
+It contains my notes from university lectures, hands-on labs, TryHackMe rooms, PortSwigger Web Security Academy exercises, and other self-study activities.
 
 ## About This Repository
 
-This is not a polished textbook or a formal course.
+It is a personal learning portfolio where I document what I learn while studying cybersecurity. These notes were originally written for my own understanding during lectures, practical exercises, labs, and training rooms. They were originally not intended for public use, but I review and publish them here as part of my learning progress.
 
-It is a personal learning portfolio where I document what I learn while studying cybersecurity. The notes are written during university lectures, hands-on practice, labs and rooms. They were originally not intended for public use, but I review and publish them here as part of my learning progress.
+The notes may include summaries, explanations, commands, observations, screenshots, and practical examples from authorised learning environments.
 
 ## Language Note
 
 My notes may be written in a mix of **English, German and Turkish**.
 
 This reflects my real learning process, as I study cybersecurity concepts from different sources and often write notes in the language that is most practical for me at that moment.
-
 
 ## Disclaimer
 

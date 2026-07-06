@@ -9,6 +9,3 @@ This repository contains academic research papers written during my studies.
 
 - **Psychologische Faktoren bei der Passwortwahl** — written in German  
   An analysis of psychological factors that influence how users choose passwords.
-
-## ⚠️ Disclaimer
-All content is created for educational purposes only.

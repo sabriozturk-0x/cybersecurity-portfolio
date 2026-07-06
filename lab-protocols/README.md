@@ -19,7 +19,3 @@ Every write-up concludes with a brief analysis and reflection on the results.
 - Buffer Overflow Exploitation
 - RSA Cryptanalysis & Fault Attacks
 - Phishing Attacks and Awareness
-
-## ⚠️ Disclaimer
-All content is created for educational purposes only.
-The techniques demonstrated should only be used in legal and controlled environments.

@@ -1,6 +1,6 @@
 ## 🔐 Academic Research
 
-This repository contains selected academic research papers written during my studies.
+This repository contains academic research papers written during my studies.
 
 ## 📄 Included Work
 

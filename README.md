@@ -5,6 +5,7 @@ It documents my study notes, lab work, screenshots and progress on platforms suc
 
 ### TryHackMe Progress
 My TryHackMe progress mainly focuses on security operation fundementals.
+
 <img width="211" height="101" alt="Bildschirmfoto 2026-07-06 um 13 33 45" src="https://github.com/user-attachments/assets/99023599-dc32-4331-a595-e23a82470d9c" />
 
 ### PortSwigger Web Security Academy Progress

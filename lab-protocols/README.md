@@ -1,5 +1,5 @@
 ## 🔐Cyber-Security-Lab-Protocols
-This repository contains 10 hands-on cybersecurity lab protocols created by me and my project partner, Nico S****.
+This repository contains 10 hands-on cybersecurity lab protocols created by me and my project partner, Nico S***.
 
 Each protocol documents our approach to solving challenges, including:
 

@@ -1,4 +1,4 @@
-# Study-notes
+## 📝 Study-notes
 
 It is a personal learning portfolio where I document what I learn while studying cybersecurity. These notes were originally written for my own understanding during lectures, practical exercises, labs, and training rooms. They were originally not intended for public use, but I publish them here as part of my learning progress.
 

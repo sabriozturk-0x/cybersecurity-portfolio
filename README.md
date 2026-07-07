@@ -12,20 +12,61 @@ My TryHackMe progress mainly focuses on security operation fundementals.
 <img width="211" height="101" alt="Bildschirmfoto 2026-07-06 um 13 33 45" src="https://github.com/user-attachments/assets/99023599-dc32-4331-a595-e23a82470d9c" />
 
 ## Badges
-<p align="center">
-  <a href="https://tryhackme.com/p/f.sbrztrk">
-    <img 
-      alt="logging-legend" 
-      title="TryHackMe - Logging Legend" 
-      loading="lazy" 
-      src="https://assets.tryhackme.com/img/badges/loganalysis.png" 
-      width="100">
-  </a>
-</p>
+<div align="center">
 
-<p align="center">
-  <strong>logging-legend</strong><br>
-</p>
+  <div style="display:inline-block; text-align:center; margin:10px;">
+    <a href="https://tryhackme.com/p/f.sbrztrk">
+      <img 
+        alt="logging-legend" 
+        title="TryHackMe - Logging Legend" 
+        loading="lazy" 
+        src="https://assets.tryhackme.com/img/badges/loganalysis.png" 
+        width="100">
+    </a>
+    <br>
+    <strong>logging-legend</strong>
+  </div>
+
+  <div style="display:inline-block; text-align:center; margin:10px;">
+    <a href="https://tryhackme.com/p/f.sbrztrk">
+      <img 
+        alt="injection" 
+        title="TryHackMe - Injection" 
+        loading="lazy" 
+        src="https://assets.tryhackme.com/img/badges/injection.png" 
+        width="100">
+    </a>
+    <br>
+    <strong>SQL-Injection</strong>
+  </div>
+
+  <div style="display:inline-block; text-align:center; margin:10px;">
+    <a href="https://tryhackme.com/p/f.sbrztrk">
+      <img 
+        alt="linux" 
+        title="TryHackMe - Linux" 
+        loading="lazy" 
+        src="https://assets.tryhackme.com/img/badges/linux.png" 
+        width="100">
+    </a>
+    <br>
+    <strong>Being competent in Linux</strong>
+  </div>
+
+  <div style="display:inline-block; text-align:center; margin:10px;">
+    <a href="https://tryhackme.com/p/f.sbrztrk">
+      <img 
+        alt="world-wide-web" 
+        title="TryHackMe - World Wide Web" 
+        loading="lazy" 
+        src="https://assets.tryhackme.com/img/badges/webbed.png" 
+        width="100">
+    </a>
+    <br>
+    <strong>Understands how the world wide web works</strong>
+  </div>
+
+</div>
 
 ## ⚠️ Disclaimer
 

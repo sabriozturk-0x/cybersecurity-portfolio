@@ -29,7 +29,7 @@ My TryHackMe progress mainly focuses on security operation fundementals.
       <sub><strong>SQL Injection</strong></sub>
     </td>
     <td align="center">
-      <a href="https://tryhackme.com/p/f.sbrztrk">
+      <a href="https://tryhackme.com/p/f.sbrztrk?tab=badges">
         <img src="./assets/badges/linux.png" width="80" alt="Linux">
       </a>
       <br>

@@ -13,7 +13,7 @@ My TryHackMe progress mainly focuses on security operation fundementals.
 
 ## Badges
 <p align="center">
-  <a href="https://tryhackme.com/p/f.sbrztrk?tab=badges">
+  <a href="https://tryhackme.com/p/f.sbrztrk">
     <img 
       alt="logging-legend" 
       title="TryHackMe - Logging Legend" 

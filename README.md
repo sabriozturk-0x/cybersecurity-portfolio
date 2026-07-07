@@ -3,7 +3,7 @@ This repository is my personal proof-of-work portfolio for cybersecurity learnin
 
 It documents my study notes, lab work, screenshots and progress on platforms such as PortSwigger Web Security Academy and TryHackMe. The main purpose of this repository is to provide visible evidence of my practical learning process.
 
-## PortSwigger Web Security Academy Progress
+## PortSwigger Progress
 <img width="500" height="300" alt="Bildschirmfoto 2026-07-06 um 13 33 00" src="https://github.com/user-attachments/assets/c5d602f2-f017-4680-a8e2-a25224dbc378" />
 
 ## TryHackMe Progress

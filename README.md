@@ -16,32 +16,37 @@ My TryHackMe progress mainly focuses on security operation fundementals.
   <tr>
     <td align="center" width="120">
       <a href="https://tryhackme.com/p/f.sbrztrk">
-        <img src="assets/badges/loganalysis" width="80" height="80" alt="logging-legend">
+        <img src="assets/badges/loganalysis.png" width="80" height="80" alt="logging-legend">
       </a>
     </td>
+
     <td align="center" width="120">
       <a href="https://tryhackme.com/p/f.sbrztrk">
-        <img src="assets/badges/tryhackme-sql-injection.png" width="80" height="80" alt="SQL-Injection">
+        <img src="assets/badges/injection.png" width="80" height="80" alt="SQL-Injection">
       </a>
     </td>
+
     <td align="center" width="120">
       <a href="https://tryhackme.com/p/f.sbrztrk">
-        <img src="assets/badges/tryhackme-linux.png" width="80" height="80" alt="Linux">
+        <img src="assets/badges/linux.png" width="80" height="80" alt="Linux">
       </a>
     </td>
+
     <td align="center" width="120">
       <a href="https://tryhackme.com/p/f.sbrztrk">
-        <img src="assets/badges/tryhackme-web.png" width="80" height="80" alt="World Wide Web">
+        <img src="assets/badges/webbed.png" width="80" height="80" alt="World Wide Web">
       </a>
     </td>
+
     <td align="center" width="120">
       <a href="https://app.letsdefend.io/user/snow36">
-        <img src="assets/badges/letsdefend-phishing-expert.png" width="80" height="80" alt="Phishing Expert">
+        <img src="assets/badges/phishing_expert.png" width="80" height="80" alt="Phishing Expert">
       </a>
     </td>
+
     <td align="center" width="120">
       <a href="https://app.letsdefend.io/user/snow36">
-        <img src="assets/badges/letsdefend-soc-member.png" width="80" height="80" alt="SOC Member">
+        <img src="assets/badges/soc_fundementals.png" width="80" height="80" alt="SOC Member">
       </a>
     </td>
   </tr>
@@ -50,23 +55,29 @@ My TryHackMe progress mainly focuses on security operation fundementals.
     <td align="center" width="120">
       <sub><strong>logging-legend</strong></sub>
     </td>
+
     <td align="center" width="120">
       <sub><strong>SQL-Injection</strong></sub>
     </td>
+
     <td align="center" width="120">
       <sub><strong>Linux</strong></sub>
     </td>
+
     <td align="center" width="120">
       <sub><strong>World Wide Web</strong></sub>
     </td>
+
     <td align="center" width="120">
       <sub><strong>Phishing Expert</strong></sub>
     </td>
+
     <td align="center" width="120">
       <sub><strong>SOC Member</strong></sub>
     </td>
   </tr>
 </table>
+
 ## ⚠️ Disclaimer
 
 All content in this repository is for educational and portfolio purposes only.

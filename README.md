@@ -12,87 +12,45 @@ My TryHackMe progress mainly focuses on security operation fundementals.
 <img width="211" height="101" alt="Bildschirmfoto 2026-07-06 um 13 33 45" src="https://github.com/user-attachments/assets/99023599-dc32-4331-a595-e23a82470d9c" />
 
 ## Badges
-<table align="center">
-  <tr>
-    <td align="center">
-      <a href="https://tryhackme.com/p/f.sbrztrk">
-        <img 
-          alt="logging-legend" 
-          title="TryHackMe - Logging Legend" 
-          loading="lazy" 
-          src="https://assets.tryhackme.com/img/badges/loganalysis.png" 
-          width="100">
-      </a>
-      <br>
-      <strong>logging-legend</strong>
-    </td>
+<p align="center">
+  <a href="https://tryhackme.com/p/f.sbrztrk">
+    <img src="https://assets.tryhackme.com/img/badges/loganalysis.png" width="75" alt="logging-legend">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://tryhackme.com/p/f.sbrztrk">
+    <img src="https://assets.tryhackme.com/img/badges/injection.png" width="75" alt="SQL-Injection">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://tryhackme.com/p/f.sbrztrk">
+    <img src="https://assets.tryhackme.com/img/badges/linux.png" width="75" alt="Linux">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://tryhackme.com/p/f.sbrztrk">
+    <img src="https://assets.tryhackme.com/img/badges/webbed.png" width="75" alt="World Wide Web">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://app.letsdefend.io/user/snow36">
+    <img src="https://app-ld-img.s3.amazonaws.com/badge/3-a2e2f4ae-241a-42f8-af89-e5d1a2a8a0f5.png" width="75" alt="Phishing Expert">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://app.letsdefend.io/user/snow36">
+    <img src="https://app-ld-img.s3.amazonaws.com/badge/soc-fundamentals-badge-0101ea06-51bf-4f94-8e2f-1b363f78dbb2.png" width="75" alt="SOC Member">
+  </a>
+</p>
 
-    <td align="center">
-      <a href="https://tryhackme.com/p/f.sbrztrk">
-        <img 
-          alt="injection" 
-          title="TryHackMe - Injection" 
-          loading="lazy" 
-          src="https://assets.tryhackme.com/img/badges/injection.png" 
-          width="100">
-      </a>
-      <br>
-      <strong>SQL-Injection</strong>
-    </td>
-
-    <td align="center">
-      <a href="https://tryhackme.com/p/f.sbrztrk">
-        <img 
-          alt="linux" 
-          title="TryHackMe - Linux" 
-          loading="lazy" 
-          src="https://assets.tryhackme.com/img/badges/linux.png" 
-          width="100">
-      </a>
-      <br>
-      <strong>Being competent in Linux</strong>
-    </td>
-
-    <td align="center">
-      <a href="https://tryhackme.com/p/f.sbrztrk">
-        <img 
-          alt="world-wide-web" 
-          title="TryHackMe - World Wide Web" 
-          loading="lazy" 
-          src="https://assets.tryhackme.com/img/badges/webbed.png" 
-          width="100">
-      </a>
-      <br>
-      <strong>Understands how the world wide web works</strong>
-    </td>
-
-    <td align="center">
-      <a href="https://app.letsdefend.io/user/snow36">
-        <img 
-          alt="Phishing Expert" 
-          title="LetsDefend - Phishing Expert" 
-          loading="lazy" 
-          src="https://app-ld-img.s3.amazonaws.com/badge/3-a2e2f4ae-241a-42f8-af89-e5d1a2a8a0f5.png" 
-          width="100">
-      </a>
-      <br>
-      <strong>Phishing Expert</strong>
-    </td>
-
-    <td align="center">
-      <a href="https://app.letsdefend.io/user/snow36">
-        <img 
-          alt="SOC Member" 
-          title="LetsDefend - SOC Member" 
-          loading="lazy" 
-          src="https://app-ld-img.s3.amazonaws.com/badge/soc-fundamentals-badge-0101ea06-51bf-4f94-8e2f-1b363f78dbb2.png" 
-          width="100">
-      </a>
-      <br>
-      <strong>SOC Member</strong>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <sub><strong>logging-legend</strong></sub>
+  &nbsp;&nbsp;&nbsp;
+  <sub><strong>SQL-Injection</strong></sub>
+  &nbsp;&nbsp;&nbsp;
+  <sub><strong>Linux</strong></sub>
+  &nbsp;&nbsp;&nbsp;
+  <sub><strong>World Wide Web</strong></sub>
+  &nbsp;&nbsp;&nbsp;
+  <sub><strong>Phishing Expert</strong></sub>
+  &nbsp;&nbsp;&nbsp;
+  <sub><strong>SOC Member</strong></sub>
+</p>
 
 ## ⚠️ Disclaimer
 

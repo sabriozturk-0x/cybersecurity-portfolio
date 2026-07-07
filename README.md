@@ -12,7 +12,12 @@ My TryHackMe progress mainly focuses on security operation fundementals.
 <img width="211" height="101" alt="Bildschirmfoto 2026-07-06 um 13 33 45" src="https://github.com/user-attachments/assets/99023599-dc32-4331-a595-e23a82470d9c" />
 
 ## Badges
-<img alt="logging-legend" title="TryHackMe" loading="lazy" src="https://assets.tryhackme.com/img/badges/loganalysis.png">
+<div align="center">
+  <div style="display:inline-block; text-align:center; margin:10px;">
+    <img alt="logging-legend" title="TryHackMe - Logging Legend" loading="lazy" src="https://assets.tryhackme.com/img/badges/loganalysis.png" width="100"><br>
+    <strong>logging-legend</strong>
+  </div>
+</div>
 
 ## ⚠️ Disclaimer
 

@@ -22,20 +22,6 @@ My TryHackMe progress mainly focuses on security operation fundementals.
       <sub><strong>Logging Legend</strong></sub>
     </td>
     <td align="center">
-      <a href="https://tryhackme.com/p/f.sbrztrk?tab=badges">
-        <img src="./assets/badges/injection.png" width="80" alt="SQL-Injection">
-      </a>
-      <br>
-      <sub><strong>SQL Injection</strong></sub>
-    </td>
-    <td align="center">
-      <a href="https://tryhackme.com/p/f.sbrztrk?tab=badges">
-        <img src="./assets/badges/linux.png" width="80" alt="Linux">
-      </a>
-      <br>
-      <sub><strong>Competent in Linux</strong></sub>
-    </td>
-    <td align="center">
       <a href="https://app.letsdefend.io/user/snow36">
         <img src="./assets/badges/phishing_expert.png" width="80" alt="Phishing Expert">
       </a>
@@ -48,6 +34,20 @@ My TryHackMe progress mainly focuses on security operation fundementals.
       </a>
       <br>
       <sub><strong>SOC Member</strong></sub>
+    </td>
+    <td align="center">
+      <a href="https://tryhackme.com/p/f.sbrztrk?tab=badges">
+        <img src="./assets/badges/injection.png" width="80" alt="SQL-Injection">
+      </a>
+      <br>
+      <sub><strong>SQL Injection</strong></sub>
+    </td>
+    <td align="center">
+      <a href="https://tryhackme.com/p/f.sbrztrk?tab=badges">
+        <img src="./assets/badges/linux.png" width="80" alt="Linux">
+      </a>
+      <br>
+      <sub><strong>Competent in Linux</strong></sub>
     </td>
   </tr>
 </table>

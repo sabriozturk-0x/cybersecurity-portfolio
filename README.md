@@ -19,28 +19,21 @@ My TryHackMe progress mainly focuses on security operation fundementals.
         <img src="./assets/badges/loganalysis.png" width="80" alt="logging-legend">
       </a>
       <br>
-      <sub><strong>logging-legend</strong></sub>
+      <sub><strong>Logging Legend</strong></sub>
     </td>
     <td align="center">
       <a href="https://tryhackme.com/p/f.sbrztrk">
         <img src="./assets/badges/injection.png" width="80" alt="SQL-Injection">
       </a>
       <br>
-      <sub><strong>SQL-Injection</strong></sub>
+      <sub><strong>SQL Injection</strong></sub>
     </td>
     <td align="center">
       <a href="https://tryhackme.com/p/f.sbrztrk">
         <img src="./assets/badges/linux.png" width="80" alt="Linux">
       </a>
       <br>
-      <sub><strong>Linux</strong></sub>
-    </td>
-    <td align="center">
-      <a href="https://tryhackme.com/p/f.sbrztrk">
-        <img src="./assets/badges/webbed.png" width="80" alt="World Wide Web">
-      </a>
-      <br>
-      <sub><strong>World Wide Web</strong></sub>
+      <sub><strong>Being competent in Linux</strong></sub>
     </td>
     <td align="center">
       <a href="https://app.letsdefend.io/user/snow36">

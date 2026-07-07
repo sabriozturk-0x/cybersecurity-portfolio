@@ -33,7 +33,7 @@ My TryHackMe progress mainly focuses on security operation fundementals.
         <img src="./assets/badges/web-attacks.png" width="80" alt="Phishing Expert">
       </a>
       <br>
-      <sub><strong>Phishing Expert</strong></sub>
+      <sub><strong>Web Attack Investigator</strong></sub>
     </td>
     <td align="center">
       <a href="https://app.letsdefend.io/user/snow36">

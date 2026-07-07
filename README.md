@@ -11,8 +11,8 @@ My TryHackMe progress mainly focuses on security operation fundementals.
 
 <img width="211" height="101" alt="Bildschirmfoto 2026-07-06 um 13 33 45" src="https://github.com/user-attachments/assets/99023599-dc32-4331-a595-e23a82470d9c" />
 
-## LetsDefend
-https://app.letsdefend.io/my-rewards/detail/5d866e98-94d9-4486-9087-e16672f772ce
+## Badges
+<img alt="logging-legend" title="TryHackMe" loading="lazy" src="https://assets.tryhackme.com/img/badges/loganalysis.png">
 
 ## ⚠️ Disclaimer
 

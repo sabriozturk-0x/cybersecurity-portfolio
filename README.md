@@ -33,7 +33,7 @@ My TryHackMe progress mainly focuses on security operation fundementals.
         <img src="./assets/badges/linux.png" width="80" alt="Linux">
       </a>
       <br>
-      <sub><strong>Being competent in Linux</strong></sub>
+      <sub><strong>Competent in Linux</strong></sub>
     </td>
     <td align="center">
       <a href="https://app.letsdefend.io/user/snow36">

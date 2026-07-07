@@ -12,61 +12,87 @@ My TryHackMe progress mainly focuses on security operation fundementals.
 <img width="211" height="101" alt="Bildschirmfoto 2026-07-06 um 13 33 45" src="https://github.com/user-attachments/assets/99023599-dc32-4331-a595-e23a82470d9c" />
 
 ## Badges
-<div align="center">
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="https://tryhackme.com/p/f.sbrztrk">
+        <img 
+          alt="logging-legend" 
+          title="TryHackMe - Logging Legend" 
+          loading="lazy" 
+          src="https://assets.tryhackme.com/img/badges/loganalysis.png" 
+          width="100">
+      </a>
+      <br>
+      <strong>logging-legend</strong>
+    </td>
 
-  <div style="display:inline-block; text-align:center; margin:10px;">
-    <a href="https://tryhackme.com/p/f.sbrztrk">
-      <img 
-        alt="logging-legend" 
-        title="TryHackMe - Logging Legend" 
-        loading="lazy" 
-        src="https://assets.tryhackme.com/img/badges/loganalysis.png" 
-        width="100">
-    </a>
-    <br>
-    <strong>logging-legend</strong>
-  </div>
+    <td align="center">
+      <a href="https://tryhackme.com/p/f.sbrztrk">
+        <img 
+          alt="injection" 
+          title="TryHackMe - Injection" 
+          loading="lazy" 
+          src="https://assets.tryhackme.com/img/badges/injection.png" 
+          width="100">
+      </a>
+      <br>
+      <strong>SQL-Injection</strong>
+    </td>
 
-  <div style="display:inline-block; text-align:center; margin:10px;">
-    <a href="https://tryhackme.com/p/f.sbrztrk">
-      <img 
-        alt="injection" 
-        title="TryHackMe - Injection" 
-        loading="lazy" 
-        src="https://assets.tryhackme.com/img/badges/injection.png" 
-        width="100">
-    </a>
-    <br>
-    <strong>SQL-Injection</strong>
-  </div>
+    <td align="center">
+      <a href="https://tryhackme.com/p/f.sbrztrk">
+        <img 
+          alt="linux" 
+          title="TryHackMe - Linux" 
+          loading="lazy" 
+          src="https://assets.tryhackme.com/img/badges/linux.png" 
+          width="100">
+      </a>
+      <br>
+      <strong>Being competent in Linux</strong>
+    </td>
 
-  <div style="display:inline-block; text-align:center; margin:10px;">
-    <a href="https://tryhackme.com/p/f.sbrztrk">
-      <img 
-        alt="linux" 
-        title="TryHackMe - Linux" 
-        loading="lazy" 
-        src="https://assets.tryhackme.com/img/badges/linux.png" 
-        width="100">
-    </a>
-    <br>
-    <strong>Being competent in Linux</strong>
-  </div>
+    <td align="center">
+      <a href="https://tryhackme.com/p/f.sbrztrk">
+        <img 
+          alt="world-wide-web" 
+          title="TryHackMe - World Wide Web" 
+          loading="lazy" 
+          src="https://assets.tryhackme.com/img/badges/webbed.png" 
+          width="100">
+      </a>
+      <br>
+      <strong>Understands how the world wide web works</strong>
+    </td>
 
-  <div style="display:inline-block; text-align:center; margin:10px;">
-    <a href="https://tryhackme.com/p/f.sbrztrk">
-      <img 
-        alt="world-wide-web" 
-        title="TryHackMe - World Wide Web" 
-        loading="lazy" 
-        src="https://assets.tryhackme.com/img/badges/webbed.png" 
-        width="100">
-    </a>
-    <br>
-    <strong>Understands how the world wide web works</strong>
-  </div>
+    <td align="center">
+      <a href="https://app.letsdefend.io/user/snow36">
+        <img 
+          alt="Phishing Expert" 
+          title="LetsDefend - Phishing Expert" 
+          loading="lazy" 
+          src="https://app-ld-img.s3.amazonaws.com/badge/3-a2e2f4ae-241a-42f8-af89-e5d1a2a8a0f5.png" 
+          width="100">
+      </a>
+      <br>
+      <strong>Phishing Expert</strong>
+    </td>
 
-</div>
+    <td align="center">
+      <a href="https://app.letsdefend.io/user/snow36">
+        <img 
+          alt="SOC Member" 
+          title="LetsDefend - SOC Member" 
+          loading="lazy" 
+          src="https://app-ld-img.s3.amazonaws.com/badge/soc-fundamentals-badge-0101ea06-51bf-4f94-8e2f-1b363f78dbb2.png" 
+          width="100">
+      </a>
+      <br>
+      <strong>SOC Member</strong>
+    </td>
+  </tr>
+</table>
 
 ## ⚠️ Disclaimer
 

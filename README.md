@@ -12,46 +12,61 @@ My TryHackMe progress mainly focuses on security operation fundementals.
 <img width="211" height="101" alt="Bildschirmfoto 2026-07-06 um 13 33 45" src="https://github.com/user-attachments/assets/99023599-dc32-4331-a595-e23a82470d9c" />
 
 ## Badges
-<p align="center">
-  <a href="https://tryhackme.com/p/f.sbrztrk">
-    <img src="https://assets.tryhackme.com/img/badges/loganalysis.png" width="75" alt="logging-legend">
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://tryhackme.com/p/f.sbrztrk">
-    <img src="https://assets.tryhackme.com/img/badges/injection.png" width="75" alt="SQL-Injection">
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://tryhackme.com/p/f.sbrztrk">
-    <img src="https://assets.tryhackme.com/img/badges/linux.png" width="75" alt="Linux">
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://tryhackme.com/p/f.sbrztrk">
-    <img src="https://assets.tryhackme.com/img/badges/webbed.png" width="75" alt="World Wide Web">
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://app.letsdefend.io/user/snow36">
-    <img src="https://app-ld-img.s3.amazonaws.com/badge/3-a2e2f4ae-241a-42f8-af89-e5d1a2a8a0f5.png" width="75" alt="Phishing Expert">
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://app.letsdefend.io/user/snow36">
-    <img src="https://app-ld-img.s3.amazonaws.com/badge/soc-fundamentals-badge-0101ea06-51bf-4f94-8e2f-1b363f78dbb2.png" width="75" alt="SOC Member">
-  </a>
-</p>
+<table align="center">
+  <tr>
+    <td align="center" width="120">
+      <a href="https://tryhackme.com/p/f.sbrztrk">
+        <img src="assets/badges/tryhackme-logging-legend.png" width="80" height="80" alt="logging-legend">
+      </a>
+    </td>
+    <td align="center" width="120">
+      <a href="https://tryhackme.com/p/f.sbrztrk">
+        <img src="assets/badges/tryhackme-sql-injection.png" width="80" height="80" alt="SQL-Injection">
+      </a>
+    </td>
+    <td align="center" width="120">
+      <a href="https://tryhackme.com/p/f.sbrztrk">
+        <img src="assets/badges/tryhackme-linux.png" width="80" height="80" alt="Linux">
+      </a>
+    </td>
+    <td align="center" width="120">
+      <a href="https://tryhackme.com/p/f.sbrztrk">
+        <img src="assets/badges/tryhackme-web.png" width="80" height="80" alt="World Wide Web">
+      </a>
+    </td>
+    <td align="center" width="120">
+      <a href="https://app.letsdefend.io/user/snow36">
+        <img src="assets/badges/letsdefend-phishing-expert.png" width="80" height="80" alt="Phishing Expert">
+      </a>
+    </td>
+    <td align="center" width="120">
+      <a href="https://app.letsdefend.io/user/snow36">
+        <img src="assets/badges/letsdefend-soc-member.png" width="80" height="80" alt="SOC Member">
+      </a>
+    </td>
+  </tr>
 
-<p align="center">
-  <sub><strong>logging-legend</strong></sub>
-  &nbsp;&nbsp;&nbsp;
-  <sub><strong>SQL-Injection</strong></sub>
-  &nbsp;&nbsp;&nbsp;
-  <sub><strong>Linux</strong></sub>
-  &nbsp;&nbsp;&nbsp;
-  <sub><strong>World Wide Web</strong></sub>
-  &nbsp;&nbsp;&nbsp;
-  <sub><strong>Phishing Expert</strong></sub>
-  &nbsp;&nbsp;&nbsp;
-  <sub><strong>SOC Member</strong></sub>
-</p>
-
+  <tr>
+    <td align="center" width="120">
+      <sub><strong>logging-legend</strong></sub>
+    </td>
+    <td align="center" width="120">
+      <sub><strong>SQL-Injection</strong></sub>
+    </td>
+    <td align="center" width="120">
+      <sub><strong>Linux</strong></sub>
+    </td>
+    <td align="center" width="120">
+      <sub><strong>World Wide Web</strong></sub>
+    </td>
+    <td align="center" width="120">
+      <sub><strong>Phishing Expert</strong></sub>
+    </td>
+    <td align="center" width="120">
+      <sub><strong>SOC Member</strong></sub>
+    </td>
+  </tr>
+</table>
 ## ⚠️ Disclaimer
 
 All content in this repository is for educational and portfolio purposes only.

@@ -15,7 +15,7 @@ My TryHackMe progress mainly focuses on security operation fundementals.
 <table>
   <tr>
     <td align="center">
-      <a href="https://tryhackme.com/p/f.sbrztrk">
+      <a href="https://tryhackme.com/p/f.sbrztrk?tab=badges">
         <img src="./assets/badges/loganalysis.png" width="80" alt="logging-legend">
       </a>
       <br>

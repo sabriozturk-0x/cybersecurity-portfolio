@@ -25,7 +25,6 @@ My TryHackMe progress mainly focuses on security operation fundementals.
 
 <p align="center">
   <strong>logging-legend</strong><br>
-  <sub>TryHackMe badge — linked to my public TryHackMe profile</sub>
 </p>
 
 ## ⚠️ Disclaimer

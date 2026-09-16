@@ -6,7 +6,7 @@ It documents my study notes, lab work, screenshots and progress on platforms suc
 I am currently studying for the CCNA certification.
 
 ## PortSwigger Progress
-<img width="500" height="300" alt="Bildschirmfoto 2026-07-08 um 19 17 42" src="https://github.com/user-attachments/assets/fee4e135-c0cd-467b-b97a-4b9c2a47e0e9" />
+<img width="500" height="300" alt="Bildschirmfoto 2026-09-16 um 10 46 09" src="https://github.com/user-attachments/assets/e6373e75-0119-4f30-91a9-eb92b202b672" />
 
 ## TryHackMe Progress
 My TryHackMe progress mainly focuses on security operation fundementals.

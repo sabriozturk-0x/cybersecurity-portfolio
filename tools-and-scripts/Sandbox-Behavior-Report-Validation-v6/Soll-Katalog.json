@@ -1,0 +1,1541 @@
+[
+  {
+    "test_id": "DISC-01",
+    "action": "Windows version and OS information",
+    "category": "Umgebungs-/Systemanalyse",
+    "expected": [
+      "PowerShell-/WMI-Aktivitaet oder abgelegte Ergebnisse"
+    ],
+    "visibility": "indirekt/optional",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "DISC-02",
+    "action": "Computer hardware summary",
+    "category": "Umgebungs-/Systemanalyse",
+    "expected": [
+      "PowerShell-/WMI-Aktivitaet oder abgelegte Ergebnisse"
+    ],
+    "visibility": "indirekt/optional",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "DISC-03",
+    "action": "Process inventory",
+    "category": "Umgebungs-/Systemanalyse",
+    "expected": [
+      "PowerShell-/WMI-Aktivitaet oder abgelegte Ergebnisse"
+    ],
+    "visibility": "indirekt/optional",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "DISC-04",
+    "action": "Service inventory",
+    "category": "Umgebungs-/Systemanalyse",
+    "expected": [
+      "PowerShell-/WMI-Aktivitaet oder abgelegte Ergebnisse"
+    ],
+    "visibility": "indirekt/optional",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "DISC-05",
+    "action": "Current user and security context",
+    "category": "Umgebungs-/Systemanalyse",
+    "expected": [
+      "PowerShell-/WMI-Aktivitaet oder abgelegte Ergebnisse"
+    ],
+    "visibility": "indirekt/optional",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "DISC-06",
+    "action": "IP configuration",
+    "category": "Umgebungs-/Systemanalyse",
+    "expected": [
+      "PowerShell-/WMI-Aktivitaet oder abgelegte Ergebnisse"
+    ],
+    "visibility": "indirekt/optional",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "DISC-07",
+    "action": "Environment characteristics (no sandbox avoidance)",
+    "category": "Umgebungs-/Systemanalyse",
+    "expected": [
+      "PowerShell-/WMI-Aktivitaet oder abgelegte Ergebnisse"
+    ],
+    "visibility": "indirekt/optional",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "PROC-01",
+    "action": "cmd.exe child process",
+    "category": "Prozess- und Kommandoausfuehrung",
+    "expected": [
+      "Prozessbaum / Kommandozeile / Kindprozess"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "PROC-02",
+    "action": "Nested PowerShell child process",
+    "category": "Prozess- und Kommandoausfuehrung",
+    "expected": [
+      "Prozessbaum / Kommandozeile / Kindprozess"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "PROC-03",
+    "action": "whoami.exe system-user query",
+    "category": "Prozess- und Kommandoausfuehrung",
+    "expected": [
+      "Prozessbaum / Kommandozeile / Kindprozess"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "PROC-04",
+    "action": "ipconfig.exe subprocess",
+    "category": "Prozess- und Kommandoausfuehrung",
+    "expected": [
+      "Prozessbaum / Kommandozeile / Kindprozess"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "FILE-01",
+    "action": "Create directories and marker text file",
+    "category": "Dateioperation",
+    "expected": [
+      "Dateiänderung, Dateiname, Hash oder Artefakt"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "FILE-02",
+    "action": "Generate 64KiB deterministic binary sample",
+    "category": "Dateioperation",
+    "expected": [
+      "Dateiänderung, Dateiname, Hash oder Artefakt"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "FILE-03",
+    "action": "Copy, rename and hash benign file",
+    "category": "Dateioperation",
+    "expected": [
+      "Dateiänderung, Dateiname, Hash oder Artefakt"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "FILE-04",
+    "action": "Create benign ZIP archive",
+    "category": "Dateioperation",
+    "expected": [
+      "Dateiänderung, Dateiname, Hash oder Artefakt"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "FILE-05",
+    "action": "NTFS alternate data stream",
+    "category": "Dateioperation",
+    "expected": [
+      "Dateiänderung, Dateiname, Hash oder Artefakt"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "FILE-06",
+    "action": "Change file attributes inside lab directory",
+    "category": "Dateioperation",
+    "expected": [
+      "Dateiänderung, Dateiname, Hash oder Artefakt"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "FILE-07",
+    "action": "Write-delete short-lived temporary marker",
+    "category": "Dateioperation",
+    "expected": [
+      "Dateiänderung, Dateiname, Hash oder Artefakt"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "FILE-08",
+    "action": "Read file content and enumerate files",
+    "category": "Dateioperation",
+    "expected": [
+      "Dateiänderung, Dateiname, Hash oder Artefakt"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "REG-01",
+    "action": "Create HKCU test key and string property",
+    "category": "Registry",
+    "expected": [
+      "Registry-Pfad, Name und Änderung"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "REG-02",
+    "action": "Modify registry marker string",
+    "category": "Registry",
+    "expected": [
+      "Registry-Pfad, Name und Änderung"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "REG-03",
+    "action": "Create REG_DWORD and REG_BINARY values",
+    "category": "Registry",
+    "expected": [
+      "Registry-Pfad, Name und Änderung"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "REG-04",
+    "action": "Read values and enumerate lab key",
+    "category": "Registry",
+    "expected": [
+      "Registry-Pfad, Name und Änderung"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "REG-05",
+    "action": "Delete one registry marker",
+    "category": "Registry",
+    "expected": [
+      "Registry-Pfad, Name und Änderung"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "TIME-01",
+    "action": "Single timed delay",
+    "category": "Zeitverhalten",
+    "expected": [
+      "Zeitliche Folge und lokale Messdatei"
+    ],
+    "visibility": "indirekt/optional",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "TIME-02",
+    "action": "Three short jitter-measurement samples",
+    "category": "Zeitverhalten",
+    "expected": [
+      "Zeitliche Folge und lokale Messdatei"
+    ],
+    "visibility": "indirekt/optional",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "NET-01",
+    "action": "Resolve GET endpoint hostname using Windows DNS resolver",
+    "category": "Netzwerk",
+    "expected": [
+      "DNS/Verbindung/HTTP falls instrumentiert"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "nur wenn Netzwerk aktiv",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "NET-02",
+    "action": "Bounded HTTP(S) GET request with distinct lab user agent",
+    "category": "Netzwerk",
+    "expected": [
+      "DNS/Verbindung/HTTP falls instrumentiert"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "nur wenn Netzwerk aktiv",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "NET-03",
+    "action": "Repeated GET beacon-like requests with fixed intervals",
+    "category": "Netzwerk",
+    "expected": [
+      "DNS/Verbindung/HTTP falls instrumentiert"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "nur wenn Netzwerk aktiv",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "NET-04",
+    "action": "Synthetic-only JSON POST to explicitly approved HTTPS endpoint",
+    "category": "Netzwerk",
+    "expected": [
+      "DNS/Verbindung/HTTP falls instrumentiert"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "nur wenn Netzwerk aktiv",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "SIM-01",
+    "action": "Inert autorun registry example as JSON file only",
+    "category": "Nur synthetisches Testartefakt",
+    "expected": [
+      "Nur Erstellung einer lokalen Simulationsdatei"
+    ],
+    "visibility": "synthetisch",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "SIM-02",
+    "action": "Inert scheduled-task example as JSON file only",
+    "category": "Nur synthetisches Testartefakt",
+    "expected": [
+      "Nur Erstellung einer lokalen Simulationsdatei"
+    ],
+    "visibility": "synthetisch",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "SIGN-01",
+    "action": "Read Authenticode signature status of this script",
+    "category": "Signatur- und Dateimetadaten",
+    "expected": [
+      "Signatur- oder Hashinformation, soweit reportiert"
+    ],
+    "visibility": "indirekt/optional",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "SIGN-02",
+    "action": "Hash this script for report identity",
+    "category": "Signatur- und Dateimetadaten",
+    "expected": [
+      "Signatur- oder Hashinformation, soweit reportiert"
+    ],
+    "visibility": "indirekt/optional",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "DISC-08",
+    "action": "Query OS installation and boot times",
+    "category": "Umgebungs-/Systemanalyse",
+    "expected": [
+      "PowerShell-/WMI-Aktivitaet oder abgelegte Ergebnisse"
+    ],
+    "visibility": "indirekt/optional",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "DISC-09",
+    "action": "Enumerate logical volumes",
+    "category": "Umgebungs-/Systemanalyse",
+    "expected": [
+      "PowerShell-/WMI-Aktivitaet oder abgelegte Ergebnisse"
+    ],
+    "visibility": "indirekt/optional",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "DISC-10",
+    "action": "Enumerate scheduled task names (read-only)",
+    "category": "Umgebungs-/Systemanalyse",
+    "expected": [
+      "PowerShell-/WMI-Aktivitaet oder abgelegte Ergebnisse"
+    ],
+    "visibility": "indirekt/optional",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "DISC-11",
+    "action": "List Windows hotfix metadata",
+    "category": "Umgebungs-/Systemanalyse",
+    "expected": [
+      "PowerShell-/WMI-Aktivitaet oder abgelegte Ergebnisse"
+    ],
+    "visibility": "indirekt/optional",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "DISC-12",
+    "action": "List limited local group descriptions",
+    "category": "Umgebungs-/Systemanalyse",
+    "expected": [
+      "PowerShell-/WMI-Aktivitaet oder abgelegte Ergebnisse"
+    ],
+    "visibility": "indirekt/optional",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "DISC-13",
+    "action": "Collect network route table metadata",
+    "category": "Umgebungs-/Systemanalyse",
+    "expected": [
+      "PowerShell-/WMI-Aktivitaet oder abgelegte Ergebnisse"
+    ],
+    "visibility": "indirekt/optional",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "DISC-14",
+    "action": "Read current proxy settings without modifying them",
+    "category": "Umgebungs-/Systemanalyse",
+    "expected": [
+      "PowerShell-/WMI-Aktivitaet oder abgelegte Ergebnisse"
+    ],
+    "visibility": "indirekt/optional",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "DISC-15",
+    "action": "Collect installed application metadata via uninstall registry",
+    "category": "Umgebungs-/Systemanalyse",
+    "expected": [
+      "PowerShell-/WMI-Aktivitaet oder abgelegte Ergebnisse"
+    ],
+    "visibility": "indirekt/optional",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "DISC-16",
+    "action": "List active Windows services with process IDs",
+    "category": "Umgebungs-/Systemanalyse",
+    "expected": [
+      "PowerShell-/WMI-Aktivitaet oder abgelegte Ergebnisse"
+    ],
+    "visibility": "indirekt/optional",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "DISC-17",
+    "action": "Read process architecture and execution context",
+    "category": "Umgebungs-/Systemanalyse",
+    "expected": [
+      "PowerShell-/WMI-Aktivitaet oder abgelegte Ergebnisse"
+    ],
+    "visibility": "indirekt/optional",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "PROC-05",
+    "action": "Launch cmd child with redirected stdout",
+    "category": "Prozess- und Kommandoausfuehrung",
+    "expected": [
+      "Prozessbaum / Kommandozeile / Kindprozess"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "PROC-06",
+    "action": "Create sequential command-shell executions",
+    "category": "Prozess- und Kommandoausfuehrung",
+    "expected": [
+      "Prozessbaum / Kommandozeile / Kindprozess"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "PROC-07",
+    "action": "Spawn PowerShell child with non-sensitive test output",
+    "category": "Prozess- und Kommandoausfuehrung",
+    "expected": [
+      "Prozessbaum / Kommandozeile / Kindprozess"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "PROC-08",
+    "action": "Invoke hostname utility as child process",
+    "category": "Prozess- und Kommandoausfuehrung",
+    "expected": [
+      "Prozessbaum / Kommandozeile / Kindprozess"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "PROC-09",
+    "action": "Invoke tasklist utility as child process",
+    "category": "Prozess- und Kommandoausfuehrung",
+    "expected": [
+      "Prozessbaum / Kommandozeile / Kindprozess"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "PROC-10",
+    "action": "Invoke netstat for current local connections",
+    "category": "Prozess- und Kommandoausfuehrung",
+    "expected": [
+      "Prozessbaum / Kommandozeile / Kindprozess"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "PROC-11",
+    "action": "Create a short-lived background PowerShell job",
+    "category": "Prozess- und Kommandoausfuehrung",
+    "expected": [
+      "Prozessbaum / Kommandozeile / Kindprozess"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "PROC-12",
+    "action": "Inspect current PowerShell module list",
+    "category": "Prozess- und Kommandoausfuehrung",
+    "expected": [
+      "Prozessbaum / Kommandozeile / Kindprozess"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "FILE-09",
+    "action": "Generate deterministic 32 KB binary artifact",
+    "category": "Dateioperation",
+    "expected": [
+      "Dateiänderung, Dateiname, Hash oder Artefakt"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "FILE-10",
+    "action": "Write Unicode and ASCII encoded markers",
+    "category": "Dateioperation",
+    "expected": [
+      "Dateiänderung, Dateiname, Hash oder Artefakt"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "FILE-11",
+    "action": "Append to existing lab file",
+    "category": "Dateioperation",
+    "expected": [
+      "Dateiänderung, Dateiname, Hash oder Artefakt"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "FILE-12",
+    "action": "Generate directory tree with files",
+    "category": "Dateioperation",
+    "expected": [
+      "Dateiänderung, Dateiname, Hash oder Artefakt"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "FILE-13",
+    "action": "Create then rename a lab-owned directory",
+    "category": "Dateioperation",
+    "expected": [
+      "Dateiänderung, Dateiname, Hash oder Artefakt"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "FILE-14",
+    "action": "Write and update isolated file attributes",
+    "category": "Dateioperation",
+    "expected": [
+      "Dateiänderung, Dateiname, Hash oder Artefakt"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "FILE-15",
+    "action": "Modify then restore lab file timestamp",
+    "category": "Dateioperation",
+    "expected": [
+      "Dateiänderung, Dateiname, Hash oder Artefakt"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "FILE-16",
+    "action": "Create NTFS alternate data stream where supported",
+    "category": "Dateioperation",
+    "expected": [
+      "Dateiänderung, Dateiname, Hash oder Artefakt"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "FILE-17",
+    "action": "Compute SHA-256 and SHA-1 for own artifact",
+    "category": "Dateioperation",
+    "expected": [
+      "Dateiänderung, Dateiname, Hash oder Artefakt"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "FILE-18",
+    "action": "Search own test files for unique marker",
+    "category": "Dateioperation",
+    "expected": [
+      "Dateiänderung, Dateiname, Hash oder Artefakt"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "FILE-19",
+    "action": "Read own binary and create Base64 text copy",
+    "category": "Dateioperation",
+    "expected": [
+      "Dateiänderung, Dateiname, Hash oder Artefakt"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "FILE-20",
+    "action": "Compress lab-owned marker files into second archive",
+    "category": "Dateioperation",
+    "expected": [
+      "Dateiänderung, Dateiname, Hash oder Artefakt"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "FILE-21",
+    "action": "Expand lab-owned archive into run folder",
+    "category": "Dateioperation",
+    "expected": [
+      "Dateiänderung, Dateiname, Hash oder Artefakt"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "FILE-22",
+    "action": "Create then remove temporary lab marker",
+    "category": "Dateioperation",
+    "expected": [
+      "Dateiänderung, Dateiname, Hash oder Artefakt"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "FILE-23",
+    "action": "Inspect own file access control list",
+    "category": "Dateioperation",
+    "expected": [
+      "Dateiänderung, Dateiname, Hash oder Artefakt"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "REG-07",
+    "action": "Create and update nested lab registry subkey",
+    "category": "Registry",
+    "expected": [
+      "Registry-Pfad, Name und Änderung"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "REG-08",
+    "action": "Create multiple string value under lab key",
+    "category": "Registry",
+    "expected": [
+      "Registry-Pfad, Name und Änderung"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "REG-09",
+    "action": "Create expandable string without execution",
+    "category": "Registry",
+    "expected": [
+      "Registry-Pfad, Name und Änderung"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "REG-10",
+    "action": "Change lab DWORD repeatedly",
+    "category": "Registry",
+    "expected": [
+      "Registry-Pfad, Name und Änderung"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "REG-11",
+    "action": "Export lab registry key to REG file using reg.exe",
+    "category": "Registry",
+    "expected": [
+      "Registry-Pfad, Name und Änderung"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "REG-12",
+    "action": "Delete nested lab registry subkey",
+    "category": "Registry",
+    "expected": [
+      "Registry-Pfad, Name und Änderung"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "SIGN-03",
+    "action": "Verify Authenticode status of Windows PowerShell executable",
+    "category": "Signatur- und Dateimetadaten",
+    "expected": [
+      "Signatur- oder Hashinformation, soweit reportiert"
+    ],
+    "visibility": "indirekt/optional",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "SIGN-04",
+    "action": "Hash built-in system executable as reference",
+    "category": "Signatur- und Dateimetadaten",
+    "expected": [
+      "Signatur- oder Hashinformation, soweit reportiert"
+    ],
+    "visibility": "indirekt/optional",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "SIGN-05",
+    "action": "Write harmless signature-enforcement test plan",
+    "category": "Signatur- und Dateimetadaten",
+    "expected": [
+      "Signatur- oder Hashinformation, soweit reportiert"
+    ],
+    "visibility": "indirekt/optional",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "TIME-03",
+    "action": "Measure short repeat intervals",
+    "category": "Zeitverhalten",
+    "expected": [
+      "Zeitliche Folge und lokale Messdatei"
+    ],
+    "visibility": "indirekt/optional",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "TIME-04",
+    "action": "Measure bounded CPU calculation time",
+    "category": "Zeitverhalten",
+    "expected": [
+      "Zeitliche Folge und lokale Messdatei"
+    ],
+    "visibility": "indirekt/optional",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "TIME-05",
+    "action": "Measure file I/O duration inside run directory",
+    "category": "Zeitverhalten",
+    "expected": [
+      "Zeitliche Folge und lokale Messdatei"
+    ],
+    "visibility": "indirekt/optional",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "TIME-06",
+    "action": "Record UTC time and monotonic clock progression",
+    "category": "Zeitverhalten",
+    "expected": [
+      "Zeitliche Folge und lokale Messdatei"
+    ],
+    "visibility": "indirekt/optional",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "NET-05",
+    "action": "Create loopback TCP listener and connect to it",
+    "category": "Netzwerk",
+    "expected": [
+      "DNS/Verbindung/HTTP falls instrumentiert"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "nur wenn Netzwerk aktiv",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "NET-06",
+    "action": "Transmit fixed benign payload over loopback UDP",
+    "category": "Netzwerk",
+    "expected": [
+      "DNS/Verbindung/HTTP falls instrumentiert"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "nur wenn Netzwerk aktiv",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "NET-07",
+    "action": "Inspect local connection summary after transport tests",
+    "category": "Netzwerk",
+    "expected": [
+      "DNS/Verbindung/HTTP falls instrumentiert"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "nur wenn Netzwerk aktiv",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "SIM-03",
+    "action": "Write inert injection scenario data (no injection)",
+    "category": "Nur synthetisches Testartefakt",
+    "expected": [
+      "Nur Erstellung einer lokalen Simulationsdatei"
+    ],
+    "visibility": "synthetisch",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "SIM-04",
+    "action": "Write inert service creation data (no service installed)",
+    "category": "Nur synthetisches Testartefakt",
+    "expected": [
+      "Nur Erstellung einer lokalen Simulationsdatei"
+    ],
+    "visibility": "synthetisch",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "SIM-05",
+    "action": "Write inert credential-access case (no credentials accessed)",
+    "category": "Nur synthetisches Testartefakt",
+    "expected": [
+      "Nur Erstellung einer lokalen Simulationsdatei"
+    ],
+    "visibility": "synthetisch",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "SIM-06",
+    "action": "Write inert defense-evasion case (no protection bypass)",
+    "category": "Nur synthetisches Testartefakt",
+    "expected": [
+      "Nur Erstellung einer lokalen Simulationsdatei"
+    ],
+    "visibility": "synthetisch",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "DISC-18",
+    "action": "Read PowerShell host and execution configuration",
+    "category": "Umgebungs-/Systemanalyse",
+    "expected": [
+      "PowerShell-/WMI-Aktivitaet oder abgelegte Ergebnisse"
+    ],
+    "visibility": "indirekt/optional",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "DISC-19",
+    "action": "List bounded local TCP listeners",
+    "category": "Umgebungs-/Systemanalyse",
+    "expected": [
+      "PowerShell-/WMI-Aktivitaet oder abgelegte Ergebnisse"
+    ],
+    "visibility": "indirekt/optional",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "DISC-20",
+    "action": "Read installed Windows Defender status if available",
+    "category": "Umgebungs-/Systemanalyse",
+    "expected": [
+      "PowerShell-/WMI-Aktivitaet oder abgelegte Ergebnisse"
+    ],
+    "visibility": "indirekt/optional",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "DISC-21",
+    "action": "Read code integrity policy metadata if exposed",
+    "category": "Umgebungs-/Systemanalyse",
+    "expected": [
+      "PowerShell-/WMI-Aktivitaet oder abgelegte Ergebnisse"
+    ],
+    "visibility": "indirekt/optional",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "DISC-22",
+    "action": "Inspect bounded local DNS cache where supported",
+    "category": "Umgebungs-/Systemanalyse",
+    "expected": [
+      "PowerShell-/WMI-Aktivitaet oder abgelegte Ergebnisse"
+    ],
+    "visibility": "indirekt/optional",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "DISC-23",
+    "action": "Read system uptime and physical memory summary",
+    "category": "Umgebungs-/Systemanalyse",
+    "expected": [
+      "PowerShell-/WMI-Aktivitaet oder abgelegte Ergebnisse"
+    ],
+    "visibility": "indirekt/optional",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "PROC-13",
+    "action": "Multi-level cmd.exe shell lineage",
+    "category": "Prozess- und Kommandoausfuehrung",
+    "expected": [
+      "Prozessbaum / Kommandozeile / Kindprozess",
+      "cmd.exe -> cmd.exe mit LAB_NESTED_SHELL_MARKER"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "PROC-14",
+    "action": "PowerShell child writes bounded marker file",
+    "category": "Prozess- und Kommandoausfuehrung",
+    "expected": [
+      "Prozessbaum / Kommandozeile / Kindprozess"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "PROC-15",
+    "action": "PowerShell child writes standard error output",
+    "category": "Prozess- und Kommandoausfuehrung",
+    "expected": [
+      "Prozessbaum / Kommandozeile / Kindprozess"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "PROC-16",
+    "action": "Use certutil to hash lab-owned benign file",
+    "category": "Prozess- und Kommandoausfuehrung",
+    "expected": [
+      "Prozessbaum / Kommandozeile / Kindprozess",
+      "certutil.exe mit -hashfile auf Labordatei"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "PROC-17",
+    "action": "Read limited command line and parent process details",
+    "category": "Prozess- und Kommandoausfuehrung",
+    "expected": [
+      "Prozessbaum / Kommandozeile / Kindprozess"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "FILE-24",
+    "action": "Create many small numbered benign artifacts",
+    "category": "Dateioperation",
+    "expected": [
+      "Dateiänderung, Dateiname, Hash oder Artefakt"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "FILE-25",
+    "action": "Copy artifact through multiple lab directories",
+    "category": "Dateioperation",
+    "expected": [
+      "Dateiänderung, Dateiname, Hash oder Artefakt"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "FILE-26",
+    "action": "Create harmless script and configuration file as artifacts only",
+    "category": "Dateioperation",
+    "expected": [
+      "Dateiänderung, Dateiname, Hash oder Artefakt"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "FILE-27",
+    "action": "Create and inspect file hash manifest",
+    "category": "Dateioperation",
+    "expected": [
+      "Dateiänderung, Dateiname, Hash oder Artefakt"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "FILE-28",
+    "action": "Write and read newline-delimited JSON records",
+    "category": "Dateioperation",
+    "expected": [
+      "Dateiänderung, Dateiname, Hash oder Artefakt"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "FILE-29",
+    "action": "Create and delete isolated empty directories",
+    "category": "Dateioperation",
+    "expected": [
+      "Dateiänderung, Dateiname, Hash oder Artefakt"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "REG-13",
+    "action": "Create short-lived Boolean-style lab configuration",
+    "category": "Registry",
+    "expected": [
+      "Registry-Pfad, Name und Änderung"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "REG-14",
+    "action": "Read back own lab key and serialize values",
+    "category": "Registry",
+    "expected": [
+      "Registry-Pfad, Name und Änderung"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "REG-15",
+    "action": "Update own key value in short series",
+    "category": "Registry",
+    "expected": [
+      "Registry-Pfad, Name und Änderung"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "REG-16",
+    "action": "Write and delete temporary string registry value",
+    "category": "Registry",
+    "expected": [
+      "Registry-Pfad, Name und Änderung"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "TIME-07",
+    "action": "Measure jitter for a sequence of bounded delays",
+    "category": "Zeitverhalten",
+    "expected": [
+      "Zeitliche Folge und lokale Messdatei"
+    ],
+    "visibility": "indirekt/optional",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "TIME-08",
+    "action": "Compare wall-clock and monotonic elapsed time",
+    "category": "Zeitverhalten",
+    "expected": [
+      "Zeitliche Folge und lokale Messdatei"
+    ],
+    "visibility": "indirekt/optional",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "SIGN-06",
+    "action": "Check signature of built-in Windows command shell",
+    "category": "Signatur- und Dateimetadaten",
+    "expected": [
+      "Signatur- oder Hashinformation, soweit reportiert"
+    ],
+    "visibility": "indirekt/optional",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "SIGN-07",
+    "action": "Read trusted file timestamp and checksum metadata",
+    "category": "Signatur- und Dateimetadaten",
+    "expected": [
+      "Signatur- oder Hashinformation, soweit reportiert"
+    ],
+    "visibility": "indirekt/optional",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "SIM-07",
+    "action": "Describe inert scheduled task example (not created)",
+    "category": "Nur synthetisches Testartefakt",
+    "expected": [
+      "Nur Erstellung einer lokalen Simulationsdatei"
+    ],
+    "visibility": "synthetisch",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "SIM-08",
+    "action": "Describe inert network lateral movement example (not executed)",
+    "category": "Nur synthetisches Testartefakt",
+    "expected": [
+      "Nur Erstellung einer lokalen Simulationsdatei"
+    ],
+    "visibility": "synthetisch",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "CHAIN-01",
+    "action": "Sequence A: child-process then marker-file change",
+    "category": "Mehrstufige Verhaltenskette",
+    "expected": [
+      "Korrelation und zeitliche Abfolge mehrerer Aktionen",
+      "cmd.exe vor chain-a.txt"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "CHAIN-02",
+    "action": "Sequence B: registry configuration then local file",
+    "category": "Mehrstufige Verhaltenskette",
+    "expected": [
+      "Korrelation und zeitliche Abfolge mehrerer Aktionen",
+      "HKCU-Änderung ChainB vor chain-b.txt"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "CHAIN-03",
+    "action": "Sequence C: archive generation after several file writes",
+    "category": "Mehrstufige Verhaltenskette",
+    "expected": [
+      "Korrelation und zeitliche Abfolge mehrerer Aktionen",
+      "vier Dateien vor chain-c.zip"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  },
+  {
+    "test_id": "REG-06",
+    "action": "Remove only this run HKCU key",
+    "category": "Registry",
+    "expected": [
+      "Registry-Pfad, Name und Änderung"
+    ],
+    "visibility": "beobachtbare Aktion",
+    "run_condition": "Standard, vorbehaltlich Windows-Funktion und Optionen",
+    "status": "OFFEN",
+    "evidence": "",
+    "notes": ""
+  }
+]
